@@ -5,14 +5,14 @@
 
     // when creating a new link, use [[double brackets]]
     // false to use [single brackets]
-    "double_brackets": true,
+    "double_brackets": false,
 
     // links like "[[199901012359]] and note title" instead of "[[199901012359]]"
     "insert_links_with_titles": false,
 
     // when creating a new note, put id into title?
      // false to disable
-    "id_in_title": false,
+    "id_in_title": true,
 
     // highlight links to other notes?
     // false to disable
@@ -77,7 +77,7 @@
     // Sort note lists (search results) by
     // - title
     // - ID       <-- default
-    "sort_notelists_by": "id",
+    "sort_notelists_by": "title",
 
     // set to true to enable super awesome zettelkasten mode
     "zettelkasten_mode" : true,
